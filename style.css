@@ -1,0 +1,195 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Public Sans', sans-serif;
+    box-sizing: border-box;
+}
+/*Header Style*/
+.header{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(35,35,35,0.75), rgba(21,21,21,0.75)), url(images/pizza-bg.png);
+    background: cover;
+    background-position: center;
+}
+.navbar{
+    width: 100%;
+    /*margin: auto;*/
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(239, 81, 49);
+    padding: 0 10px;
+}
+.navbar ul li{
+    list-style-type: none;
+    display: inline-block;
+    margin: 0 30px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: #FFF;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bold;
+}
+.navbar ul li a:hover{
+    padding: 15px 20px;
+    text-align: center;
+    background-color: #FF9B6A;;
+    border-radius: 40%;
+    font-weight: bold;
+    border: 2px solid #f7ccb7;  
+    text-decoration: none;
+    text-transform: uppercase;
+    /*box-shadow: -1px 2px 10px 1px rgba(236, 232, 232, 0.75);*/
+}
+.content{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    right: 5%;
+    text-align: right;
+    color: #FFF;
+}
+.content h1{
+    font-size: 50px;
+    /*margin: 80px;*/
+    font-family: 'Updock', cursive;
+}
+.content p{
+    margin: 20px auto;
+    font-size: 16px;
+    font-weight: 100;
+    line-height: 25px;
+}
+button{
+    width: 150px;
+    padding: 15px 0;
+    margin: 20px 10px;
+    font-weight: bold;
+    border: 2px solid #f7ccb7;
+    background: transparent;
+    color: #FFF;
+}
+.btn-order{
+    background-color: #f4c2a9;
+}
+button:hover{
+    background-color: #f7ccb7;
+    /*box-shadow: -1px 2px 10px 1px rgba(236, 232, 232, 0.75);*/
+}
+.btn-order:hover{
+   background: transparent;
+}
+/* Content Style */
+.main-content{
+    background-color: #DAE5D0;
+    width: 100%;
+}
+.main-content h1{
+    text-align: center;
+    padding: 30px 0 0;
+    font-size: 2.2em;
+    font-family: 'Public Sans', sans-serif;
+}
+.main-content hr{
+    width: 15%;
+    border-top: 3px solid #000;
+    margin: auto;
+}
+.content-section{
+    /*width: 100%;*/
+    height: 600px;
+    padding: 0 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*background-color: #DAE5D0;*/
+}
+.content-section .col{
+    text-align: center;
+    margin: 0 30px;
+}
+.pic{
+    border-radius: 100px;
+    width: 150px;
+    height: 150px;
+    margin-bottom: 30px;
+    box-shadow: 6px 7px 6px -1px rgba(0,0,0,0.38);
+}
+.content-section .col h3{
+    margin: 30px 0;
+    text-transform: uppercase;
+    /*font-weight: bold;*/
+    font-family: 'Playfair Display', serif;
+    font-size: 1.3em;
+}
+.content-section .col p{
+    font-family: 'Roboto Slab', serif;
+    font-size: 18px;
+    line-height: 21px;
+}
+/* Footer2 Style */
+.footer-section{
+    /*position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;*/
+    width: 100vw;
+    color: #363062;
+    background-color: #E9D5DA;
+    padding: 30px 0;
+    display: flex;
+    justify-content: center;
+}
+.footer-section div{ 
+    text-align: center;
+}
+.footer-section div h3{
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+    font-weight: 400;
+}
+.footer-section .col-1 a{
+    text-decoration: none;
+    display: block;
+    color: #363062;
+    text-align: left;
+    margin-bottom: 5px;
+}
+.footer-section .col-2{
+    flex-grow: .5;
+}
+form input{
+    width: 400px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    outline: none;;
+    text-align: center;
+    margin-bottom: 40px;
+}
+form button{
+    padding: 10px 30px;
+    border: 2px solid #fff;
+    border-radius: 30px;
+    background: transparent;
+    color: #363062;
+    font-size: 15px;
+}
+.social-links{
+    margin-top: 30px;
+}
+.social-links i{
+    margin: 0 10px 0 ;
+}
+.social-links i:hover{
+    color:#e5a5b5;
+}
+/*.footer-bottom{
+    background: #ff8143;
+    width: 100vw;
+    text-align: center;
+    padding: 20px 0;
+}*/
